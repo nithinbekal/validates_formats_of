@@ -1,0 +1,23 @@
+ValidatesFormatsOf
+==================
+
+A plugin which allows you to validate formats of urls and emails without
+having to specify the regular expressions.
+
+This is just some code I wrote to try and understand how to create plugins, and
+it hasn't been tested at all. I will try to improve this, but for now you can
+use a couple of excellent plugins for validating urls and emails:
+
+http://github.com/henrik/validates_url_format_of/
+http://github.com/dancroak/validates_email_format_of/
+
+
+Credits
+=======
+
+The validates_url_format_of plugin by henrik played a large role in getting me
+started with this plugin. The #validates_url_format_of method is almost
+identical to that plguin, but since this isn't a serious plugin (yet), I've used
+a very simple regexp for url format.
+
+Copyright (c) 2010 Nithin Bekal, released under the MIT license
